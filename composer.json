@@ -1,0 +1,17 @@
+{
+    "name": "DrewML/Perfmarks",
+    "description": "Instruments the Magento 2 storefront with the web platform User Timing API",
+    "require": {
+        "php": "^7.1.0|^7.2.0",
+        "magento/framework": "^100.0.20|^101.0.0|^102.0.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "DrewML_Perfmarks/registration.php"
+        ],
+        "psr-4": {
+            "DrewML\\Perfmarks\\": "DrewML_Perfmarks"
+        }
+    }
+}
